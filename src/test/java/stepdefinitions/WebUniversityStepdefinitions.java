@@ -5,8 +5,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.WebUniversityPage;
-import runners.utilities.ReusableMethods;
 import utilities.ConfigReader;
+import utilities.ReusableMethods;
 
 public class WebUniversityStepdefinitions {
     WebUniversityPage webUniversityPage = new WebUniversityPage();

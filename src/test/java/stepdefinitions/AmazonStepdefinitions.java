@@ -29,6 +29,7 @@ public class AmazonStepdefinitions {
         String actualAramaSonucYazisi= amazonPage.aramaSonucElementi.getText();
         Assert.assertTrue(actualAramaSonucYazisi.contains(expectedIcerik));
     }
+
     @Then("sayfayi kapatir")
     public void sayfayi_kapatir() {
         Driver.closeDriver();
@@ -97,4 +98,7 @@ public class AmazonStepdefinitions {
 
     }
 
+    @And("arama sonuclainin Nutella icerdiğini test eder")
+    public void aramaSonuclaininNutellaIcerdiğiniTestEder() {
+    }
 }

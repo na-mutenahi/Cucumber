@@ -4,7 +4,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import runners.utilities.Driver;
+import utilities.Driver;
 
 public class Hooks {
     @After

@@ -4,7 +4,7 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.NoSuchElementException;
 import pages.HerokuPage;
-import runners.utilities.Driver;
+import utilities.Driver;
 
 import java.time.Duration;
 

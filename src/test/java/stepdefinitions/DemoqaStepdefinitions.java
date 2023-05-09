@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.DemoqaPage;
-import runners.utilities.Driver;
+import utilities.Driver;
 
 import java.time.Duration;
 
